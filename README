@@ -1,0 +1,25 @@
+TURBO GAME
+
+
+Embedded Systems Assignment for ENCE260, Semester 2 2021, University of Canterbury.
+Code Written by Mohadesa Sharifi and Sahil Negi. 
+
+
+Game Instructions : How to Play
+
+Game starts by showing a text message on the led matrix screen. Push the navigation switch down to start the game.
+
+Game starts with a single bulb-body segment and grows after eating food that is randomly placed.
+Game ends when snake hits its own body. If the snake head reaches the wall, the head will appear from the opposite wall. 
+A GAME OVER message will display on the led matrix.
+
+
+Compile Instructions
+
+Since the game uses dependecies in "ence260-ucfk4" folder, the game needs to be 
+cloned in the same folder. In order to do this, first need to open the folder's
+terminal and write "git clone https://eng-git.canterbury.ac.nz/ence260-2021/group_440.git".
+This would create a folder named "group_440", and then locate to "group_440/final" path.
+Finally, open this folder's terminal and write "make program" to run the game.
+
+
